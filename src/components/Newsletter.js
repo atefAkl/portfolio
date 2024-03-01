@@ -42,7 +42,16 @@ export const Newsletter = ({ status, message, onValidated }) => {
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="Email Address"
                 />
-                <button type="submit">Submit</button>
+                <button
+                  type="submit"
+                  style={{
+                    width: "auto",
+                    foneSize: "80px",
+                    padding: "8px 1em",
+                  }}
+                >
+                  📧
+                </button>
               </div>
             </form>
           </Col>
