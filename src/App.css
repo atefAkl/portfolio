@@ -689,3 +689,10 @@ nav.navbar.scrolled a.nav-link.active {
 nav.navbar.scrolled .navbar-toggler-icon {
   background-color: #04a8e9;
 }
+
+@media screen and (max-width: 720px) {
+  .newsletter-bx {
+    padding: 10px;
+    border-radius: 0;
+  }
+}
