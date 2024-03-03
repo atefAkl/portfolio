@@ -46,7 +46,7 @@ export const Newsletter = ({ status, message, onValidated }) => {
                   type="submit"
                   style={{
                     width: "auto",
-                    foneSize: "80px",
+                    foneSize: "2em",
                     padding: "8px 1em",
                   }}
                 >
